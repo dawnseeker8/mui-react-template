@@ -1,10 +1,8 @@
 name: Frond end main CI
 
 on:
-  push:
-    branches: [master]
-
-  # Allows you to run this workflow manually from the Actions tab
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -25,6 +23,6 @@ jobs:
 
       - name: Build Frond end
         run: |
-          npm install react-scripts -g
-          npm ci
-          npm run build
+          yarn global add react-scripts
+          yarn install
+          yarn build

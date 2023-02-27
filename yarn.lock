@@ -5139,10 +5139,10 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
-github-buttons@^2.8.0:
-  version "2.22.1"
-  resolved "https://registry.yarnpkg.com/github-buttons/-/github-buttons-2.22.1.tgz#1221aef6dee885665c81b9b3e913471951790ec1"
-  integrity sha512-937dpW009lbV8p1gg1SoUvUnJBnfJKYU6CEJcsdoLnBzI4YP7Y8oT/M0O7WTQwfErTYLCG9t0W1huaexSLx7yA==
+github-buttons@^2.22.0:
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/github-buttons/-/github-buttons-2.24.0.tgz#e2e3d64345be0232809cd86cf727a715aacd7dca"
+  integrity sha512-dHpEno4S2JHjsEKPLSTGDTV50q1d08n3H7VDfNNA1m8cz5DMqLCZDdKWQxy4zyvd6M3tKvlVYLs+/H0BF3DggA==
 
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
@@ -8031,12 +8031,12 @@ react-error-overlay@^6.0.11:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.11.tgz#92835de5841c5cf08ba00ddd2d677b6d17ff9adb"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
 
-react-github-btn@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/react-github-btn/-/react-github-btn-1.2.1.tgz#ece93f609a4bad5e7eb9f47ae49bfaba69466dce"
-  integrity sha512-/gXD01mHAOhW0xYuNJFDn08OGjaMXOjcg6GCKVPdHvQcWzswH4aT85DLDAAJ6Zhw/71veSIH4Kx1BTBfy69SsA==
+react-github-btn@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-github-btn/-/react-github-btn-1.4.0.tgz#92654107e92658e60dd977c7a92b212f806da78d"
+  integrity sha512-lV4FYClAfjWnBfv0iNlJUGhamDgIq6TayD0kPZED6VzHWdpcHmPfsYOZ/CFwLfPv4Zp+F4m8QKTj0oy2HjiGXg==
   dependencies:
-    github-buttons "^2.8.0"
+    github-buttons "^2.22.0"
 
 react-is@^16.10.2, react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
